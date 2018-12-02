@@ -1,0 +1,10 @@
+version: '2.2'
+
+services:
+  e2e_q:
+    image: chatster/api-e2e-q
+    build: .
+    container_name: e2e_q
+    ports:
+      - 4100:4100
+      - 2940:2940
